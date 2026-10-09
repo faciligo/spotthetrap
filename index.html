@@ -16,15 +16,14 @@
 </head>
 <body>
 <h1>Politique de confidentialité de SpotTheTrap</h1>
-<p class="date">Dernière mise à jour : 30 septembre 2026</p>
+<p class="date">Dernière mise à jour : 9 octobre 2026</p>
 <p>SpotTheTrap t'aide à repérer les pièges d'un contrat avant de le signer (conditions générales, bail, devis, abonnement…). Cette page explique, simplement, ce qui arrive à tes données.</p>
 
 <h2>En bref</h2>
 <ul>
 <li>Nous n'avons <strong>aucun serveur</strong> : nous ne recevons, ne stockons et ne vendons aucun de tes documents.</li>
 <li>Un <strong>document</strong> (PDF, Word, image) ou une <strong>photo</strong> est lu <strong>sur ton téléphone</strong> et n'est <strong>jamais envoyé</strong>.</li>
-<li>Si ton téléphone le permet, le texte est aussi <strong>analysé sur ton téléphone</strong>, sans internet.</li>
-<li>Sinon, le texte est envoyé à <strong>Google Gemini</strong> pour être analysé, après avoir retiré les informations personnelles que l'appli sait reconnaître.</li>
+<li>Le texte est aussi <strong>analysé sur ton téléphone</strong>, par une IA qui marche sans internet. <strong>Rien n'est envoyé</strong>, ni le texte, ni le document, ni la photo.</li>
 <li>L'appli est gratuite grâce à la <strong>publicité</strong> (Google AdMob), avec ton consentement.</li>
 </ul>
 
@@ -33,40 +32,44 @@
 <ul>
 <li><strong>Document</strong> : l'appli ne peut ouvrir que le fichier que tu choisis toi-même. Son texte est lu sur le téléphone ; le fichier n'est ni copié ni envoyé.</li>
 <li><strong>Photo</strong> : le texte est lu sur le téléphone (Google ML Kit, qui fonctionne sans internet). La photo est effacée dès que son texte est lu.</li>
-<li><strong>Analyse sur le téléphone</strong> : si ton téléphone est assez puissant et que tu as téléchargé le moteur (environ 2 Go, depuis Hugging Face), le texte est analysé sur le téléphone. Rien n'est envoyé.</li>
-<li><strong>Analyse en ligne</strong> : sinon, le texte est envoyé à Google Gemini, seulement quand tu appuies sur « Chercher les pièges ». Avant l'envoi, l'appli retire du texte : IBAN, adresse e-mail, numéro de téléphone, numéro de sécurité sociale ou fiscal. <strong>Attention</strong> : un nom ou une adresse écrits en toutes lettres peuvent passer. Google traite ce texte selon ses propres règles : <a href="https://ai.google.dev/gemini-api/terms">ai.google.dev/gemini-api/terms</a></li>
-<li>Chaque résultat indique où il a été fait (« Lu sur ton téléphone » ou « Lu en ligne »).</li>
+<li><strong>Analyse</strong> : elle est faite sur le téléphone par une IA (Qwen 2.5, licence Apache 2.0). Tu la télécharges une seule fois (762 Mo, depuis Hugging Face). Ensuite, elle marche sans internet. Rien n'est envoyé. Tant que l'IA n'est pas téléchargée, l'appli ne peut rien analyser.</li>
+<li>Si tu as aussi DecodeMe, les deux applis se partagent le même fichier d'IA : il n'est pas téléchargé deux fois. Une appli le prête à l'autre en lecture seule, sans le copier.</li>
 <li>Le dernier texte saisi est gardé <strong>chiffré sur le téléphone</strong> pour ne pas le perdre. Le bouton « Effacer » ou « Effacer le texte en cours » (Réglages) le supprime.</li>
 </ul>
 
-<h2>2. Publicité</h2>
+<h2>2. Ce qui passe par internet</h2>
+<p>Seulement deux choses : le <strong>téléchargement de l'IA</strong>, une seule fois, depuis Hugging Face, et la <strong>publicité</strong> (voir ci-dessous).</p>
+
+<h2>3. Publicité</h2>
 <p>L'appli affiche des publicités Google AdMob. Au premier lancement, dans l'Union européenne, un formulaire te demande ton accord (publicité personnalisée ou non). Tu peux changer d'avis à tout moment : Réglages → « Gérer mes choix de publicité ». AdMob peut utiliser l'identifiant publicitaire du téléphone et des informations techniques sur l'appareil. Règles de Google : <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></p>
 
-<h2>3. Ce que nous ne faisons pas</h2>
+<h2>4. Ce que nous ne faisons pas</h2>
 <p>Pas de compte, pas d'inscription, pas de localisation, pas d'accès à tes contacts. Pas d'accès à tes fichiers en dehors de celui que tu choisis. L'appli ne demande pas la permission « Appareil photo » : c'est l'appli photo de ton téléphone qui prend la photo.</p>
 
-<h2>4. Ce n'est pas un avis juridique</h2>
+<h2>5. Ce n'est pas un avis juridique</h2>
 <p>SpotTheTrap aide à repérer les clauses à surveiller, mais il peut en rater ou se tromper. En cas de doute, demande conseil à un professionnel ou à une association de consommateurs.</p>
 
-<h2>5. Public</h2>
+<h2>6. Public</h2>
 <p>SpotTheTrap s'adresse aux adultes (18 ans et plus).</p>
 
-<h2>6. Supprimer tes données</h2>
-<p>Tout ce que l'appli garde est sur ton téléphone. Désinstaller l'appli efface tout. Le moteur se supprime aussi depuis Réglages → « Supprimer le moteur ».</p>
+<h2>7. Supprimer tes données</h2>
+<p>Tout ce que l'appli garde est sur ton téléphone. Désinstaller l'appli efface tout. L'IA se supprime aussi depuis les Réglages.</p>
 
-<h2>7. Contact</h2>
+<h2>8. Contact</h2>
 <p>Pour toute question : faciligo.academy@gmail.com</p>
 
 <hr>
 
 <h1 lang="en">SpotTheTrap privacy policy</h1>
 <div lang="en">
-<p class="date">Last updated: 30 September 2026</p>
+<p class="date">Last updated: October 9, 2026</p>
 <ul>
 <li>We have <strong>no server</strong>: we do not receive, store or sell any of your documents.</li>
 <li>A <strong>document</strong> (PDF, Word, image) or a <strong>photo</strong> is read <strong>on your phone</strong> and is <strong>never sent</strong>. The app can only open the file you choose.</li>
-<li>If your phone allows it (and you downloaded the 2 GB engine from Hugging Face), the text is also <strong>checked on your phone</strong>, with nothing sent.</li>
-<li>Otherwise, when you tap “Find the traps”, the text is sent to <strong>Google Gemini</strong>, after removing the personal details the app can recognise (bank account number, email, phone, social security or tax number). A name or an address written in plain words can slip through. Google's terms: <a href="https://ai.google.dev/gemini-api/terms">ai.google.dev/gemini-api/terms</a></li>
+<li>The text is also <strong>checked on your phone</strong> by an AI that works without internet (Qwen 2.5, Apache 2.0 licence). <strong>Nothing is sent</strong>: not the text, not the document, not the photo.</li>
+<li>You download the AI once (762 MB, from Hugging Face). After that it works offline. Until it is downloaded, the app cannot check anything.</li>
+<li>If you also have DecodeMe, both apps share the same AI file: it is not downloaded twice. One app lends it to the other, read-only, without copying it.</li>
+<li>Only two things use the internet: the one-time AI download (Hugging Face) and the ads.</li>
 <li>The last text you typed is kept <strong>encrypted on your phone</strong>; “Clear” removes it.</li>
 <li>The app is free thanks to <strong>Google AdMob</strong> ads, with your consent (EU form at first launch, changeable in Settings). AdMob may use the advertising ID and technical device information: <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></li>
 <li>No account, no location, no contacts. It is not legal advice. For adults (18+).</li>
